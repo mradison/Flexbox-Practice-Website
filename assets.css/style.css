@@ -9,9 +9,14 @@ body{
 }
 
 .flex-container{
-    /*display: flex;*/
+    display: flex;
     background: #f4f4f4;
+    /*Always on the main axis*/
+    /*justify-content: end;*/
+    /*Always on the cross axis*/
+    /*align-items: start;*/
 }
+
 
 .item{
     width: 100px;
@@ -19,6 +24,11 @@ body{
     background: blue;
     color: #fff;
     margin: 10px;
-    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
